@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+
+title: the Seos
+description: A journey of a thousand miles with the Seo.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.theSeos.ca/" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /posts/:slug
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-leaflet
+
+# Exclude from processing.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - README.md
+   - LICENSE.md
